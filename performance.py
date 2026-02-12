@@ -10,5 +10,8 @@ class Performance_Analyzer:
         if self.average_score >= 70 and self.attendance_percentage >= 75:
             return "Excellent Performance"
         elif self.average_score >= 50 and self.attendance_percentage >= 60:
-            return "Satisfactory Performance" 
+            return "Satisfactory Performance"
+        else:
+            return "Needs Improvement"
+         
     

@@ -1,6 +1,6 @@
 # here i will be writing my codes for the students grade structure
 
-class GradeCAlculator:
+class GradeCalculator:
     def __init__(self, score):
         self.score = score
    

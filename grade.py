@@ -2,7 +2,7 @@
 
 class GradeCAlculator:
     def __init__(self, score):
-        self.score = scores
+        self.score = score
    
     def calculate_average(self):
         return sum(self.scores)/ len(self.scores)
